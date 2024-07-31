@@ -1,14 +1,14 @@
-# MCSB
+# MCSB Microsoft Cloud Security Benchmark v1
 
 Deploy a policy assignment for the Microsoft Cloud Security Benchmark v1 (https://learn.microsoft.com/en-us/security/benchmark/azure/introduction)
 
 Based on https://learn.microsoft.com/en-us/azure/governance/policy/assign-policy-azurecli#connect-to-azure
 
-Deployment Steps
-# Login to Azure
+# Deployment Steps
+#Login to Azure
 az login
 
-# Run these commands if you have multiple subscriptions
+#Run these commands if you have multiple subscriptions
 az account list --output table
 az account set --subscription <subscriptionID>
 
